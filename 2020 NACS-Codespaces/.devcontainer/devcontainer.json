@@ -1,0 +1,16 @@
+{
+  "name":"SPFx",
+  "settings":{
+  },
+  "forwardPorts": [
+    4321,
+    5432,
+    35729,
+    2015
+  ],
+  "extensions": [
+    "editorconfig.editorconfig",
+    "msjsdiag.debugger-for-edge"
+  ],
+  "postCreateCommand": "bash .devcontainer/spfx-setup.sh"
+}
