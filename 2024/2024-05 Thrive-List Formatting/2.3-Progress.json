@@ -1,0 +1,94 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-wrap": "wrap",
+    "display": "flex"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "box-sizing": "border-box",
+        "padding": "4px 8px 5px 8px",
+        "overflow": "hidden",
+        "text-overflow": "ellipsis",
+        "display": "flex",
+        "border-radius": "16px",
+        "height": "24px",
+        "align-items": "center",
+        "white-space": "nowrap",
+        "margin": "4px 4px 4px 4px"
+      },
+      "attributes": {
+        "class": {
+          "operator": ":",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$Progress2]",
+                "Not started"
+              ]
+            },
+            "sp-css-backgroundColor-BgCornflowerBlue sp-field-fontSizeSmall sp-css-color-CornflowerBlueFont",
+            {
+              "operator": ":",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "[$Progress2]",
+                    "In progress"
+                  ]
+                },
+                "sp-css-backgroundColor-BgMintGreen sp-field-fontSizeSmall sp-css-color-MintGreenFont",
+                {
+                  "operator": ":",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "[$Progress2]",
+                        "Completed"
+                      ]
+                    },
+                    "sp-css-backgroundColor-BgGold sp-field-fontSizeSmall sp-css-color-GoldFont",
+                    {
+                      "operator": ":",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "[$Progress2]",
+                            "Blocked"
+                          ]
+                        },
+                        "sp-css-backgroundColor-BgCoral sp-field-fontSizeSmall sp-css-color-CoralFont",
+                        {
+                          "operator": ":",
+                          "operands": [
+                            {
+                              "operator": "==",
+                              "operands": [
+                                "[$Progress2]",
+                                "Behind"
+                              ]
+                            },
+                            "sp-css-backgroundColor-BgDustRose sp-field-fontSizeSmall sp-css-color-DustRoseFont",
+                            "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "txtContent": "[$Progress2]"
+    }
+  ]
+}

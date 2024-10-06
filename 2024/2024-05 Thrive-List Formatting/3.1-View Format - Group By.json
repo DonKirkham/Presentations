@@ -1,0 +1,44 @@
+{
+  "additionalRowClass": "ms-borderColor-themeLight",
+  "hideSelection": true,
+  "groupProps": {
+    "hideFooter": true,
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "flex-wrap": "wrap",
+        "display": "flex",
+        "box-sizing": "border-box",
+        "padding": "4px 8px 4px 4px",
+        "border-radius": "6px",
+        "align-items": "left",
+        "white-space": "nowrap",
+        "overflow": "hidden",
+        "margin": "1px 4px 4px 1px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "justify-content": "left",
+            "padding": "4px 8px 4px 4px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "= @group.fieldData.displayValue ",
+              "style": {
+                "padding": " ",
+                "font-weight": "500",
+                "font-size": "18px",
+                "color": "#004d71"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

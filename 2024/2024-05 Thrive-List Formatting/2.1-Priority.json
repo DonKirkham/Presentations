@@ -1,0 +1,247 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "box-sizing": "border-box",
+    "padding": "0 2px",
+    "overflow": "hidden",
+    "text-overflow": "ellipsis"
+  },
+  "attributes": {
+    "class": ""
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "line-height": "16px",
+        "height": "14px",
+        "display": {
+          "operator": ":",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$Priority2]",
+                "Critical"
+              ]
+            },
+            "inherit",
+            {
+              "operator": ":",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "[$Priority2]",
+                    "High"
+                  ]
+                },
+                "inherit",
+                {
+                  "operator": ":",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "[$Priority2]",
+                        "Medium"
+                      ]
+                    },
+                    "none",
+                    {
+                      "operator": ":",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "[$Priority2]",
+                            "Low"
+                          ]
+                        },
+                        "inherit",
+                        "none"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "attributes": {
+        "iconName": {
+          "operator": ":",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$Priority2]",
+                "Critical"
+              ]
+            },
+            "Error",
+            {
+              "operator": ":",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "[$Priority2]",
+                    "High"
+                  ]
+                },
+                "SortUp",
+                {
+                  "operator": ":",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "[$Priority2]",
+                        "Medium"
+                      ]
+                    },
+                    "",
+                    {
+                      "operator": ":",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "[$Priority2]",
+                            "Low"
+                          ]
+                        },
+                        "SortDown",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "class": {
+          "operator": ":",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$Priority2]",
+                "Critical"
+              ]
+            },
+            "sp-css-color-neutralPrimary",
+            {
+              "operator": ":",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "[$Priority2]",
+                    "High"
+                  ]
+                },
+                "sp-css-color-neutralPrimary",
+                {
+                  "operator": ":",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "[$Priority2]",
+                        "Medium"
+                      ]
+                    },
+                    "",
+                    {
+                      "operator": ":",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "[$Priority2]",
+                            "Low"
+                          ]
+                        },
+                        "sp-css-color-neutralPrimary",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elmType": "span",
+      "style": {
+        "overflow": "hidden",
+        "text-overflow": "ellipsis",
+        "padding": "0 3px"
+      },
+      "txtContent": "[$Priority2]",
+      "attributes": {
+        "class": {
+          "operator": ":",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$Priority2]",
+                "Critical"
+              ]
+            },
+            "sp-field-fontSizeSmall",
+            {
+              "operator": ":",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "[$Priority2]",
+                    "High"
+                  ]
+                },
+                "sp-field-fontSizeSmall",
+                {
+                  "operator": ":",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "[$Priority2]",
+                        "Medium"
+                      ]
+                    },
+                    "sp-field-fontSizeSmall",
+                    {
+                      "operator": ":",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "[$Priority2]",
+                            "Low"
+                          ]
+                        },
+                        "sp-field-fontSizeSmall",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

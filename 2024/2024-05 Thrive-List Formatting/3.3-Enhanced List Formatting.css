@@ -1,0 +1,9 @@
+div[
+  data-automation-id=
+    "captionElement2"] > span 
+{
+  color: red !important;
+  font-style: italic !important;
+  font-size: 48px !important;
+  line-height: 1.4em !important;
+}

@@ -1,0 +1,27 @@
+{
+  "sections": [
+    {
+      "displayname": "Info",
+      "fields": [
+        "Work item2",
+        "Category2",
+        "Progress2",
+        "Completed2",
+        "Priority2",
+        "Assigned to2",
+        "Reviewers2"
+      ]
+    },
+    {
+      "displayname": "Dates",
+      "fields": [
+        "Start date2",
+        "Due date2"
+      ]
+    },
+    {
+      "displayname": "Other",
+      "fields": []
+    }
+  ]
+}
