@@ -1,0 +1,11 @@
+{
+    "elmType": "div",
+    "txtContent": "Work Progress Tracker",
+    "attributes": {
+      "title": "[$Workitem2]"
+    },
+    "style": {
+      "font-size": "32px",
+      "color": "lightcoral"
+    }
+  }

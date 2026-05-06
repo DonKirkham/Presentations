@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "table",
+    "width": "100%"
+  },
+  "attributes": {
+    "class": "=if([$Progress2]=='Not started' && @now > @currentField, 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont','')"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "table-cell",
+        "text-align": "center",
+        "vertical-align": "middle"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "overflow": "hidden",
+            "text-overflow": "ellipsis",
+            "padding": "0 3px"
+          },
+          "txtContent": "=padStart(toString(getMonth(@currentField)+1),2,'0') + '/' + padStart(toString(getDate(@currentField)),2,'0') + '/' + getYear(@currentField)"
+        }
+      ]
+    }
+  ]
+}

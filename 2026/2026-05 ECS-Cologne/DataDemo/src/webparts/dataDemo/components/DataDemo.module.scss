@@ -1,0 +1,93 @@
+/* ABOUTME: Styles for the DataDemo component. */
+/* ABOUTME: Provides layout and spacing for the CRUD table interface. */
+
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.dataDemo {
+  overflow: hidden;
+  padding: 20px;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  .pivotWrapper {
+    display: flex;
+    justify-content: center;
+
+    :global(.ms-Pivot-link) {
+      height: 22px;
+      line-height: 22px;
+    }
+
+    :global(.ms-Pivot-link.is-selected) {
+      background-color: "[theme:themeLighterAlt, default: #faf4f1]";
+      background-color: var(--themeLighterAlt, #faf4f1);
+      border-radius: 4px 4px 0 0;
+    }
+  }
+}
+
+.viewHeading {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: "[theme:themePrimary, default: #0078d4]";
+  color: var(--themePrimary, #0078d4);
+}
+
+.graphJson,
+.graphErrorJson {
+  margin: 0;
+  padding: 12px;
+  background-color: "[theme:neutralLighterAlt, default: #faf9f8]";
+  background-color: var(--neutralLighterAlt, #faf9f8);
+  border: 1px solid "[theme:neutralLight, default: #edebe9]";
+  border: 1px solid var(--neutralLight, #edebe9);
+  border-radius: 4px;
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  max-height: 600px;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.graphErrorJson {
+  color: "[theme:redDark, default: #a4262c]";
+  color: var(--redDark, #a4262c);
+  background-color: "[theme:redFaint, default: #fdf3f4]";
+  background-color: var(--redFaint, #fdf3f4);
+  border-color: "[theme:redLight, default: #f1bbbc]";
+  border-color: var(--redLight, #f1bbbc);
+}
+
+.required {
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  span {
+    color: "[theme:redDark, default: #a4262c]";
+    color: var(--redDark, #a4262c);
+  }
+}
+
+.placeholder {
+  padding: 40px 20px;
+  text-align: center;
+  color: "[theme:bodySubtext, default: #605e5c]";
+  color: var(--bodyText);
+
+  h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+  }
+}

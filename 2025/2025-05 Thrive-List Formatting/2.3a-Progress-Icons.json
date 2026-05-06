@@ -1,0 +1,62 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "font-size": "16px"
+  },
+  "attributes": {
+    "title": "@currentField"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if(@currentField == 'In progress' || @currentField == 'Completed', 'SkypeCircleCheck', 'CircleRing')",
+        "class": "='ms-fontColor-' + if(@currentField == 'In progress' || @currentField == 'Completed', 'green', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if(@currentField == 'In progress' || @currentField == 'Completed', 'SkypeCircleCheck', 'CircleRing')",
+        "class": "='ms-fontColor-' + if(@currentField == 'In progress' || @currentField == 'Completed', 'green', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if(@currentField == 'Completed' , 'SkypeCircleCheck', 'CircleRing')",
+        "class": "='ms-fontColor-' + if(@currentField == 'Completed', 'green', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if(@currentField == 'Completed' , 'SkypeCircleCheck', 'CircleRing')",
+        "class": "='ms-fontColor-' + if(@currentField == 'Completed', 'green', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if(@currentField == 'Completed' , 'SkypeCircleCheck', 'CircleRing')",
+        "class": "='ms-fontColor-' + if(@currentField == 'Completed', 'green', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    }
+  ]
+}

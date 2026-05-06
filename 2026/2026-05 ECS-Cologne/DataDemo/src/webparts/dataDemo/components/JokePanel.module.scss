@@ -1,0 +1,48 @@
+/* ABOUTME: Styles for the JokePanel component. */
+/* ABOUTME: Centers joke text with delayed punchline in primary theme color. */
+
+.jokePanel {
+  padding: 40px 20px;
+  text-align: center;
+
+  .setup {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .punchline {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--themePrimary, #0078d4);
+    animation: fadeIn 600ms ease-in forwards;
+  }
+}
+
+.nextButton {
+  opacity: 0;
+  animation: fadeIn 600ms ease-in 3s forwards;
+
+  :global(.ms-Button) {
+    background-color: var(--themePrimary, #0078d4);
+    color: #ffffff;
+    border: none;
+
+    &:hover {
+      background-color: var(--themePrimary, #0078d4);
+      opacity: 0.9;
+      color: #ffffff;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
