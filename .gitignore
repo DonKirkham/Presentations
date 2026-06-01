@@ -1,0 +1,7 @@
+# Office lock / temp artifacts
+~$*
+
+# OS / editor cruft
+desktop.ini
+Thumbs.db
+.DS_Store
